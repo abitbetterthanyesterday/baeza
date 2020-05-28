@@ -28,7 +28,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Les germes pathogènes
@@ -36,7 +36,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Les sources de contaminations microbiennes
@@ -44,7 +44,7 @@
           <li class="text-lg">
             <span class="text-red-600">
               <font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Les matières étrangères
@@ -52,7 +52,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Désinfection covid 19
@@ -60,7 +60,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Nettoyage locaux par brumisateur thermique ou électrique
@@ -68,7 +68,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Vitre vitrine
@@ -76,7 +76,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Fin de chantier
@@ -84,7 +84,7 @@
           <li class="text-lg">
             <span class="text-red-600"
               ><font-awesome-icon
-                class="text-xl mr-2"
+                class="text-md mr-2"
                 :icon="['fas', 'check']"
               /> </span
             >Spécifique (décès, syndrome de diogène…)

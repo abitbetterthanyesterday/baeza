@@ -29,7 +29,9 @@ export default {
   /*
    ** Global CSS
    */
-  css: [],
+  css: ['~/assets/css/tailwind.css',
+  '@fortawesome/fontawesome/styles.css',
+  ],
   /*
    ** Plugins to load before mounting the App
    */

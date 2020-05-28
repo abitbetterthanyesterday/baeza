@@ -199,4 +199,9 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+svg{
+  height: 100%;
+  width: 100%;
+}
 </style>

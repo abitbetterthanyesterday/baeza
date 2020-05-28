@@ -9,14 +9,14 @@
         >
           <div class="md:w-1/2 w-full">
             <font-awesome-icon
-              class="text-4xl"
+              class="text-lg"
               :icon="['fas', 'phone-volume']"
             />
             <p class="text-md w-full">Portable 06.16.84.22.91</p>
             <p class="text-md w-full">Bureau 04.67.75.13.39</p>
           </div>
           <div class="md:w-1/2 w-full">
-            <font-awesome-icon class="text-3xl" :icon="['fas', 'map-pin']" />
+            <font-awesome-icon class="text-lg" :icon="['fas', 'map-pin']" />
             <p>100 Rue RENE PANHARD</p>
             <p>30900 NÎMES</p>
           </div>

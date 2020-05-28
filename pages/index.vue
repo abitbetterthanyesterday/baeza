@@ -84,7 +84,7 @@
         class="w-full md:w-3/4 px-6 text-gray italic text-lg text-gray-600 text-center"
       >
         <font-awesome-icon
-          class="text-3xl m-2"
+          class="text-md m-2"
           :icon="['fas', 'quote-left']"
         />Le nettoyage et la désinfection d'un réservoir sont une obligation
         réglementaire du Code de la santé publique. Article R1321-56, modifié
@@ -94,7 +94,7 @@
         service.... Les réservoirs équipant ces réseaux et installations doivent
         être vidés, nettoyés, rincés et désinfectés au moins une fois par
         an.<font-awesome-icon
-          class="text-3xl m-2 absolute"
+          class="text-md m-2 absolute"
           :icon="['fas', 'quote-right']"
         />
       </div>

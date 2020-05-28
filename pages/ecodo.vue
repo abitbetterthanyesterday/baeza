@@ -35,7 +35,7 @@
         <div
           class="card__icon rounded absolute flex justify-center items-center z-20 bg-blue-600 shadow-lg"
         >
-          <font-awesome-icon class="text-3xl" :icon="['fas', 'rss']" />
+          <font-awesome-icon class="text-md" :icon="['fas', 'rss']" />
         </div>
         <div class="md:w-3/4 w-full text-center">
           <h3 class="text-2xl font-semibold mt-8 mb-4">{{ title }}</h3>
