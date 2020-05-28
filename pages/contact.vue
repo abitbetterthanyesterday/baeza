@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ImageParallaxServicePage title="Contact | Devis" img="invoice.jpg" />
+    <ImageParallaxServicePage title="Contact | Devis" img="/invoice.jpg" />
 
     <div class="bg-gray-200 py-6">
       <div class="w-full bg-blue-600 flex justify-center py-12">
@@ -12,7 +12,7 @@
               class="text-lg"
               :icon="['fas', 'phone-volume']"
               size="2x"
-              style="height: 40px"
+              style="height: 40px; display: inline"
             />
             <p class="text-md w-full">Portable 06.16.84.22.91</p>
             <p class="text-md w-full">Bureau 04.67.75.13.39</p>
@@ -22,7 +22,7 @@
               class="text-lg"
               :icon="['fas', 'map-pin']"
               size="2x"
-              style="height: 40px"
+              style="height: 40px; display: inline"
             />
             <p>100 Rue RENE PANHARD</p>
             <p>30900 NÎMES</p>

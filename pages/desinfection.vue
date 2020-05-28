@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ImageParallaxServicePage title="Désinfection" img="parallax9.jpg" />
+    <ImageParallaxServicePage title="Désinfection" img="/parallax9.jpg" />
     <CardWave />
     <div class="w-full bg-gray-200">
       <h2

@@ -5,7 +5,7 @@
         class="nav__top flex justify-between items-center max-w-screen-lg mx-auto pt-2 pb-2 bg-white px-6"
       >
         <nuxt-link class="flex items-center mr-2 md:mr-0" to="/">
-          <img class="h-16 w-16" src="logo.jpg" />
+          <img class="h-16 w-16" src="/logo.jpg" />
           <h3 class="text-gray-800 hidden md:block">
             <span class="font-bold">BAEZA</span> WATERS
           </h3>
@@ -15,7 +15,7 @@
             100 Rue René Panhard, 30900 Nîmes
           </p>
           <p class="text-md">
-            <span class="text-red-600 text-sm md:text-md font-bold">
+            <span class="text-red-600 text-sm flex justify-center items-start md:text-md font-bold">
               <font-awesome-icon
                 :icon="['fas', 'phone-square-alt']"
                 size="lg"
@@ -29,21 +29,24 @@
       <div
         class="nav__links flex justify-start md:justify-center bg-red-600 shadow-md"
       >
-      <div clas='md:hidden block'>
-        <div class="menu__btn md:hidden block ml-6 py-3 text-white">
-          <font-awesome-icon
-            class="text-3xl hamburger"
-            :icon="['fas', 'bars']"
-            size="lg"
-            style="height: 30px"
-          />
+        <div clas="md:hidden block">
+          <div class="menu__btn md:hidden block ml-6 py-3 text-white">
+            <font-awesome-icon
+              class="text-3xl hamburger"
+              :icon="['fas', 'bars']"
+              size="lg"
+              style="height: 30px"
+            />
+          </div>
+          <div class="md:hidden block arrow-up block ml-6 py-3 text-white">
+            <font-awesome-icon
+              class="text-3xl"
+              :icon="['fas', 'arrow-up']"
+              size="lg"
+              style="height: 30px"
+            />
+          </div>
         </div>
-        <div
-          class="md:hidden block arrow-up block ml-6 py-3 text-white"
-        >
-          <font-awesome-icon class="text-3xl" :icon="['fas', 'arrow-up']"  size="lg" style="height: 30px"/>
-        </div>
-      </div>
         <ul
           class="
             menu
@@ -122,13 +125,19 @@
           <div
             class="p-2 hover:bg-red-400 text-white text-2xl mr-2 cursor-pointer"
           >
-            <font-awesome-icon :icon="['fab', 'instagram']" style="height: 30px"/>
+            <font-awesome-icon
+              :icon="['fab', 'instagram']"
+              style="height: 30px"
+            />
           </div>
           <div
             id="scroll-top"
             class="p-2 hover:bg-red-400 text-white text-2xl cursor-pointer"
           >
-            <font-awesome-icon :icon="['fas', 'arrow-up']" style="height: 30px"/>
+            <font-awesome-icon
+              :icon="['fas', 'arrow-up']"
+              style="height: 30px"
+            />
           </div>
         </div>
       </div>
@@ -138,7 +147,7 @@
 
 <script>
 export default {
-  created() {
+  mounted() {
     const menuBtn = document.querySelector('.menu__btn')
     const menu = document.querySelector('.menu')
     const hamburger = document.querySelector('.hamburger')
@@ -152,13 +161,13 @@ export default {
       hamburger.classList.toggle('hidden')
     })
 
-    if(window.innerWidth <= 768) {
-    menu.addEventListener('click', () => {
-      menu.classList.toggle('hidden')
-      arrowUp.classList.toggle('hidden')
-      hamburger.classList.toggle('hidden')
-    })
-  }
+    if (window.innerWidth <= 768) {
+      menu.addEventListener('click', () => {
+        menu.classList.toggle('hidden')
+        arrowUp.classList.toggle('hidden')
+        hamburger.classList.toggle('hidden')
+      })
+    }
 
     const scrollTop = document.querySelector('#scroll-top')
 

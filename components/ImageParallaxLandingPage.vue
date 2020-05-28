@@ -22,12 +22,6 @@ export default {
     title: String,
     items: [String],
     img: String
-  },
-  computed: {
-    backgroundURL() {
-      // return require(`~/assets/logoSite.png`)
-      return 'nothing'
-    }
   }
 }
 </script>

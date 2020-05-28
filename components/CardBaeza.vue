@@ -4,7 +4,7 @@
       <div
         class="flex justify-center items-center sm: w-full md:w-1/3 mb-6 md:my-8"
       >
-        <img src="logo.jpg" class="h-48 w-48" />
+        <img src="/logo.jpg" class="h-48 w-48" />
       </div>
       <div
         class="md:w-2/3 sm:w-full flex flex-col items-center justify-center text-lg text-center"

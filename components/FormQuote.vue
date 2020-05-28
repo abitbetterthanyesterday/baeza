@@ -36,7 +36,7 @@
         </h3>
         <div
           class="w-full bg-gray-500 p-12 md:px-12 shadow-md pt-32 relative"
-          :style="{ 'background-image': 'url(parallax1.jpg)' }"
+          :style="{ 'background-image': 'url(/parallax1.jpg)' }"
         >
           <form>
             <div class="flex justify-center items-center py-2">

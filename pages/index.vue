@@ -2,7 +2,7 @@
   <div>
     <ImageParallaxLandingPage
       title="Nettoyer et désinfecter votre réservoir est primordiale pour votre santé."
-      img="parallax3.jpg"
+      img="/parallax3.jpg"
     />
     <div class="flex justify-center bg-gray-200 py-10 px-2">
       <div
@@ -11,17 +11,17 @@
         <ServiceCard
           title="DÉSINFECTION"
           body="Nous réalisons le nettoyage et la désinfection de vos réservoirs et réseaux d’eau pour vous garantir une eau saine. Désinfection également pour le covid 19 véhicule bureau, maison avec produit biocide."
-          img="desinfection.jpeg"
+          img="/desinfection.jpeg"
         />
         <ServiceCard
           title="ÉCODO"
           body="Faites des économies de consommation et empêchez les dégâts des eaux et les fuites imperceptibles."
-          img="ecodo.png"
+          img="/ecodo.png"
         />
         <ServiceCard
           title="NETTOYAGE INDUSTRIEL"
           body="Pour les professionnels, nous avons une solution quel que soit votre besoin de nettoyage"
-          img="nettoyage_indus.jpeg"
+          img="/nettoyage_indus.jpeg"
         />
       </div>
     </div>
@@ -33,12 +33,12 @@
         { message: 'Curage de vos réseaux' },
         { message: 'Débouchage de vos canalisations' }
       ]"
-      img="parallax1.jpg"
+      img="/parallax1.jpg"
     />
     <CardBaeza />
     <ImageParallaxLandingPage
       title="Nous travaillons pour les professionnels et les particuliers"
-      img="parallax11.jpg"
+      img="/parallax11.jpg"
     />
     <div class="flex justify-center bg-gray-200 py-10">
       <div class="max-w-screen-lg flex flex-col items-center justify-center">
@@ -75,7 +75,7 @@
     </div>
     <ImageParallaxLandingPage
       title="Nous sommes disponibles pour répondre à vos questions et établir un devis"
-      img="parallax6.jpg"
+      img="/parallax6.jpg"
     />
     <CardWave />
     <FormQuote />

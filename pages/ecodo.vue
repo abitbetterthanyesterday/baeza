@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ImageParallaxServicePage title="Détection de fuite" img="parallax2.jpg" />
+    <ImageParallaxServicePage title="Détection de fuite" img="/parallax2.jpg" />
 
     <div class="flex justify-center bg-gray-200 py-10">
       <div class="flex max-w-screen-lg bg-white p-6 shadow-md mx-6">
@@ -25,7 +25,7 @@
 
     <ImageParallaxLandingPage
       title="Réaliser des économies de consommation"
-      img="parallax4.jpg"
+      img="/parallax4.jpg"
     />
 
     <div class="bg-gray-200 flex justify-center pt-16">
@@ -35,7 +35,11 @@
         <div
           class="card__icon rounded absolute flex justify-center items-center z-20 bg-blue-600 shadow-lg"
         >
-          <font-awesome-icon class="text-md" :icon="['fas', 'rss']" style="height: 30px;"/>
+          <font-awesome-icon
+            class="text-md"
+            :icon="['fas', 'rss']"
+            style="height: 30px;"
+          />
         </div>
         <div class="md:w-3/4 w-full text-center">
           <h3 class="text-2xl font-semibold mt-8 mb-4">{{ title }}</h3>

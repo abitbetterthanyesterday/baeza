@@ -2,7 +2,7 @@
   <div>
     <ImageParallaxServicePage
       title="Nettoyage industriel"
-      img="parallax12.jpg"
+      img="/parallax12.jpg"
     />
 
     <div class="flex justify-center bg-gray-200 py-10 pt-32 md:pt-16">
@@ -11,9 +11,9 @@
       >
         <div class="flex flex-col items-center justify-center text-center">
           <div
-            class="absolute card__icon bg-white flex justify-center items-center shadow-md"
+            class="absolute card__icon_alt bg-white flex justify-center items-center shadow-md"
           >
-            <img src="logo.jpg" class="md:h-16 h-32 md:w-16 w-32" />
+            <img src="/logo.jpg" class="md:h-16 h-32 md:w-16 w-32" />
           </div>
           <p class="md:w-3/4 w-full mb-6 text-white text-xl font-semibold">
             Baeza Water intervient sur bassin méditerranéen
@@ -25,7 +25,7 @@
 
     <ImageParallaxLandingPage
       title="Quelque soit vos besoins de nettoyage nous avons la solution"
-      img="parallax5.jpg"
+      img="/parallax5.jpg"
     />
 
     <div class="bg-gray-200 flex justify-center pt-12">
@@ -35,14 +35,14 @@
         >
           <h2
             class="text-center py-12 px-6 text-white font-extrabold text-3xl uppercase h-64 flex items-center bg-cover"
-            style="background-image: url(hautepression.jpeg)"
+            style="background-image: url(/hautepression.jpeg)"
           >
             Nettoyage haute pression eau chaude
           </h2>
         </div>
         <div
           class="md:w-1/3 w-full bg-blue-400 flex justify-center items-center md:mx-2 my-3 bg-cover"
-          style="background-image: url(broom.jpeg)"
+          style="background-image: url(/broom.jpeg)"
         >
           <h2
             class="text-center py-12 px-6 text-white font-extrabold text-3xl uppercase h-64 flex items-center "
@@ -52,7 +52,7 @@
         </div>
         <div
           class="md:w-1/3 w-full bg-blue-400 flex justify-center items-center md:mx-2 my-3 bg-cover"
-          style="background-image: url(green_products.jpg)"
+          style="background-image: url(/green_products.jpg)"
         >
           <h2
             class="text-center py-12 px-6 text-white font-extrabold text-3xl uppercase h-64 flex items-center"
@@ -91,19 +91,19 @@ export default {
   opacity: 0;
   transform-origin: 50% 50%;
 }
-.card__icon {
+.card__icon_alt {
   overflow-x: hidden;
   top: -50px;
-  left: calc(50%-50%);
+  left: calc(50% - 50px);
   border-radius: 50%;
   height: 100px;
   width: 100px;
 }
 
 @media only screen and (max-width: 600px) {
-  .card__icon {
+  .card__icon_alt {
     top: -90px;
-    left: calc(50%-90px);
+    left: calc(50% - 90px);
     border-radius: 50%;
     height: 180px;
     width: 180px;
