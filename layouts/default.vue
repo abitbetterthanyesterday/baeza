@@ -5,7 +5,7 @@
         class="nav__top flex justify-between items-center max-w-screen-lg mx-auto pt-2 pb-2 bg-white px-6"
       >
         <nuxt-link class="flex items-center mr-2 md:mr-0" to="/">
-          <img class="h-16 w-16" src="/LOGO.jpg" />
+          <img class="h-16 w-16" src="logo.jpg" />
           <h3 class="text-gray-800 hidden md:block">
             <span class="font-bold">BAEZA</span> WATERS
           </h3>
@@ -66,24 +66,24 @@
           <li class="flex items-center">
             <nuxt-link
               class="hover:bg-red-400             p-4"
-              to="/desinfection"
+              to="/desinfection/"
               >Désinfection</nuxt-link
             >
           </li>
           <li class="flex items-center">
-            <nuxt-link class="hover:bg-red-400             p-4" to="/ecodo"
+            <nuxt-link class="hover:bg-red-400             p-4" to="/ecodo/"
               >Détection de fuite</nuxt-link
             >
           </li>
           <li class="flex items-center">
             <nuxt-link
               class="hover:bg-red-400             p-4"
-              to="/nettoyage-industriel"
+              to="/nettoyage-industriel/"
               >Nettoyage industriel</nuxt-link
             >
           </li>
           <li class="flex items-center">
-            <nuxt-link class="hover:bg-red-400             p-4" to="/contact"
+            <nuxt-link class="hover:bg-red-400             p-4" to="/contact/"
               >Contact</nuxt-link
             >
           </li>
@@ -103,16 +103,16 @@
             text-red-100"
           >
             <li class="p-2 hover:bg-red-400">
-              <nuxt-link to="/contact">Contactez-nous</nuxt-link>
+              <nuxt-link to="/contact/">Contactez-nous</nuxt-link>
             </li>
             <li class="p-2 hover:bg-red-400">
-              <nuxt-link to="/desinfection">Désinfection</nuxt-link>
+              <nuxt-link to="/desinfection/">Désinfection</nuxt-link>
             </li>
             <li class="p-2 hover:bg-red-400">
-              <nuxt-link to="/ecodo">Écodo</nuxt-link>
+              <nuxt-link to="/ecodo/">Écodo</nuxt-link>
             </li>
             <li class="p-2 hover:bg-red-400">
-              <nuxt-link to="/nettoyage-industriel"
+              <nuxt-link to="/nettoyage-industriel/"
                 >Nettoyage industriel</nuxt-link
               >
             </li>

@@ -15,7 +15,7 @@
             vous alerte en temps réel.
           </p>
           <nuxt-link
-            to="/contact"
+            to="/contact/"
             class="mt-4 px-4 py-2 mb-6 text-white text-sm md:text-lg font-bold bg-red-600 hover:bg-red-500 rounded shadow-md"
             >Contactez nous</nuxt-link
           >

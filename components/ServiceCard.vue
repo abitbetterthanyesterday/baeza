@@ -17,7 +17,7 @@
         {{ body }}
       </p>
       <nuxt-link
-        to="/desinfection"
+        to="/desinfection/"
         class="mt-4 px-4 py-2 text-white font-bold bg-red-600 hover:bg-red-400 rounded shadow-md"
         >En savoir plus</nuxt-link
       >

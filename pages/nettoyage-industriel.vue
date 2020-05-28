@@ -13,7 +13,7 @@
           <div
             class="absolute card__icon bg-white flex justify-center items-center shadow-md"
           >
-            <img src="LOGO.jpg" class="md:h-16 h-32 md:w-16 w-32" />
+            <img src="logo.jpg" class="md:h-16 h-32 md:w-16 w-32" />
           </div>
           <p class="md:w-3/4 w-full mb-6 text-white text-xl font-semibold">
             Baeza Water intervient sur bassin méditerranéen

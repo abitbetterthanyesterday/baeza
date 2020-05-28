@@ -4,7 +4,7 @@
       <div
         class="flex justify-center items-center sm: w-full md:w-1/3 mb-6 md:my-8"
       >
-        <img src="LOGO.jpg" class="h-48 w-48" />
+        <img src="logo.jpg" class="h-48 w-48" />
       </div>
       <div
         class="md:w-2/3 sm:w-full flex flex-col items-center justify-center text-lg text-center"
@@ -16,7 +16,7 @@
           bouche du Rhône…
         </p>
         <nuxt-link
-          to="/desinfection"
+          to="/desinfection/"
           class="mt-6 px-4 py-2 text-white font-bold bg-red-600 hover:bg-red-400 rounded shadow-md"
           >En savoir plus</nuxt-link
         >

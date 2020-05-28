@@ -22,7 +22,7 @@
         </p>
         <div class="flex justify-center pt-2">
           <nuxt-link
-            to="/contact"
+            to="/contact/"
             class="mt-4 px-6 py-4 text-red-600 text-2xl font-bold bg-white text-red-400 hover:bg-red-200 hover:text-white rounded shadow-md"
             >Contactez nous</nuxt-link
           >
@@ -93,7 +93,7 @@
             </div>
             <div class="flex justify-center">
               <nuxt-link
-                to="/contact"
+                to="/contact/"
                 class="mt-4 px-6 py-4 text-white text-2xl font-bold text-white bg-red-600 hover:bg-red-400 rounded shadow-md"
                 >Envoyer</nuxt-link
               >

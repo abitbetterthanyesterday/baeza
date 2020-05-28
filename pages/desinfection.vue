@@ -29,7 +29,7 @@
                 Contactez-nous pour obtenir un contract d'entretien
               </p>
               <nuxt-link
-                to="/contact"
+                to="/contact/"
                 class="ml-4 px-4 py-2 text-white text-sm font-bold bg-red-600 hover:bg-red-400 rounded flex-shrink-0 shadow-md"
                 >Contactez nous</nuxt-link
               >
