@@ -5,7 +5,7 @@
     <div
       class="card__icon rounded absolute flex justify-center items-center z-20 bg-red-600 shadow-lg"
     >
-      <font-awesome-icon class="text-md" :icon="this.icon" />
+      <font-awesome-icon class="text-md" :icon="this.icon" size="2x" style="height: 30px"/>
     </div>
     <h3 class="uppercase text-3xl md:text-2xl font-semibold mt-8 mb-4">
       {{ title }}

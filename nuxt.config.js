@@ -1,8 +1,11 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/<repository-name>/'
-  }
-} : {}
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES' ?
+  {
+    router: {
+      base: '/<repository-name>/'
+    }
+  } :
+  {}
 
 export default {
   mode: 'universal',
@@ -29,13 +32,13 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/tailwind.css',
-  '@fortawesome/fontawesome/styles.css',
-  ],
+  css: ['~/assets/css/tailwind.css', '@fortawesome/fontawesome/styles.css', '@fortawesome/fontawesome-svg-core/styles.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [
+    '~/plugins/fontawesome.js'
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -51,8 +54,7 @@ export default {
   modules: [
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    'nuxt-fontawesome',
-
+    'nuxt-fontawesome'
   ],
 
   fontawesome: {

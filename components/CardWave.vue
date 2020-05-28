@@ -30,6 +30,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Les germes pathogènes
           </li>
@@ -38,6 +39,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Les sources de contaminations microbiennes
           </li>
@@ -46,6 +48,7 @@
               <font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Les matières étrangères
           </li>
@@ -54,6 +57,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Désinfection covid 19
           </li>
@@ -62,6 +66,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Nettoyage locaux par brumisateur thermique ou électrique
           </li>
@@ -70,6 +75,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Vitre vitrine
           </li>
@@ -78,6 +84,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Fin de chantier
           </li>
@@ -86,6 +93,7 @@
               ><font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
               /> </span
             >Spécifique (décès, syndrome de diogène…)
           </li>

@@ -86,6 +86,7 @@
         <font-awesome-icon
           class="text-md m-2"
           :icon="['fas', 'quote-left']"
+          style="height: 25px"
         />Le nettoyage et la désinfection d'un réservoir sont une obligation
         réglementaire du Code de la santé publique. Article R1321-56, modifié
         par Décret n°2010-344 du 31 mars 2010 - art. 37 Les réseaux et
@@ -96,6 +97,7 @@
         an.<font-awesome-icon
           class="text-md m-2 absolute"
           :icon="['fas', 'quote-right']"
+          style="height: 25px"
         />
       </div>
     </div>
