@@ -138,7 +138,7 @@
 
 <script>
 export default {
-  mounted() {
+  created() {
     const menuBtn = document.querySelector('.menu__btn')
     const menu = document.querySelector('.menu')
     const hamburger = document.querySelector('.hamburger')
