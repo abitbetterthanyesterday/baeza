@@ -12,12 +12,12 @@
         <p>
           Baeza Water est un expert dans le nettoyage et la désinfection des
           réseaux et réservoirs d'eau pour professionnels et particuliers. Nous
-          intervenons rapidement sur les départements du Gard, Hérault, Bar
-          bouche du Rhône…
+          intervenons rapidement sur les départements du Gard, Hérault, Var,
+          Bouches du Rhône.
         </p>
         <nuxt-link
           to="/desinfection/"
-          class="mt-6 px-4 py-2 text-white font-bold bg-red-600 hover:bg-red-400 rounded shadow-md"
+          class="mt-6 px-4 py-2 text-white font-bold bg-red-600 hover:bg-red-400 rounded shadow-md uppercase"
           >En savoir plus</nuxt-link
         >
       </div>

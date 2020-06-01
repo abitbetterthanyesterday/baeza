@@ -13,14 +13,14 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: process.env.npm_package_name || '',
+    title: "Baeza water - Page d'acceuil",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || ''
+        content: "Baeza Water est un expert dans le nettoyage et la désinfection de réservoirs d'eau (cuve, château d'eau, bâche à eau, puits, débouchage, fin de chantier, détection de fuites, assainissement). Nous intervenons dans le Gard, Hérault, Var, Bouche du Rhône.",
       }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]

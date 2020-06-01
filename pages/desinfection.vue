@@ -4,7 +4,7 @@
     <CardWave />
     <div class="w-full bg-gray-200">
       <h2
-        class="text-center uppercase text-blue-400 text-3xl font-extrabold mb-5"
+        class="text-center uppercase text-blue-600 text-3xl font-extrabold mb-5"
       >
         Quand demander une intervention?
       </h2>
@@ -19,19 +19,18 @@
             <p>
               Le nettoyage et la désinfection d'un réservoir sont une obligation
               réglementaire du Code de la santé publique. Vous devez l’effectuer
-              avant la mise en service puis une fois par an. Contactez-nous pour
-              établir un contrat d’entretien.
+              avant la mise en service puis une fois par an.
             </p>
             <div
               class="flex md:justify-between justify-center mt-6 items-center"
             >
               <p class="hidden md:block">
-                Contactez-nous pour obtenir un contract d'entretien
+                Contactez-nous pour obtenir un contrat d'entretien
               </p>
               <nuxt-link
                 to="/contact/"
-                class="ml-4 px-4 py-2 text-white text-sm font-bold bg-red-600 hover:bg-red-400 rounded flex-shrink-0 shadow-md"
-                >Contactez nous</nuxt-link
+                class="ml-4 px-4 py-2 text-white text-sm font-bold bg-red-600 hover:bg-red-400 rounded flex-shrink-0 shadow-md uppercase"
+                >Contactez-nous</nuxt-link
               >
             </div>
           </div>
@@ -39,12 +38,22 @@
       </div>
     </div>
     <CardBaeza />
+    <ImageParallaxLandingPage
+      title="Nous pouvons aussi vous apporter notre expertise dans ces domaines:"
+      :items="[
+        { message: 'Inspection caméra de vos canalisations' },
+        { message: 'Curage de vos réseaux' },
+        { message: 'Débouchage de vos canalisations' }
+      ]"
+      img="/parallax14.jpg"
+    />
     <FormQuote />
   </div>
 </template>
 
 <script>
 import ImageParallaxServicePage from '@/components/ImageParallaxServicePage.vue'
+import ImageParallaxLandingPage from '@/components/ImageParallaxLandingPage.vue'
 import FormQuote from '@/components/FormQuote.vue'
 import CardWave from '@/components/CardWave.vue'
 import CardBaeza from '@/components/CardBaeza.vue'
@@ -52,9 +61,15 @@ import CardBaeza from '@/components/CardBaeza.vue'
 export default {
   components: {
     ImageParallaxServicePage,
+    ImageParallaxLandingPage,
     CardWave,
     FormQuote,
     CardBaeza
+  },
+  head() {
+    return {
+      title: 'Baeza Water - Désinfection'
+    }
   }
 }
 </script>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <ImageParallaxLandingPage
-      title="Nettoyer et désinfecter votre réservoir est primordiale pour votre santé."
+      title="Nettoyer et désinfecter votre réservoir est primordial pour votre santé."
       img="/parallax3.jpg"
     />
     <div class="flex justify-center bg-gray-200 py-10 px-2">
@@ -10,17 +10,17 @@
       >
         <ServiceCard
           title="DÉSINFECTION"
-          body="Nous réalisons le nettoyage et la désinfection de vos réservoirs et réseaux d’eau pour vous garantir une eau saine. Désinfection également pour le covid 19 véhicule bureau, maison avec produit biocide."
+          body="Nous réalisons le nettoyage et la désinfection de vos réservoirs et réseaux d’eau pour vous garantir une eau saine. Désinfection également pour le COVID-19 véhicule, bureau et maison avec produit biocide."
           img="/desinfection.jpeg"
         />
         <ServiceCard
-          title="ÉCODO"
+          title="DÉTECTION DE FUITE"
           body="Faites des économies de consommation et empêchez les dégâts des eaux et les fuites imperceptibles."
           img="/ecodo.png"
         />
         <ServiceCard
           title="NETTOYAGE INDUSTRIEL"
-          body="Pour les professionnels, nous avons une solution quel que soit votre besoin de nettoyage"
+          body="Pour les professionnels, nous avons une solution quel que soit votre besoin de nettoyage."
           img="/nettoyage_indus.jpeg"
         />
       </div>
@@ -37,7 +37,7 @@
     />
     <CardBaeza />
     <ImageParallaxLandingPage
-      title="Nous travaillons pour les professionnels et les particuliers"
+      title="Nous travaillons pour les professionnels et les particuliers."
       img="/parallax11.jpg"
     />
     <div class="flex justify-center bg-gray-200 py-10">
@@ -53,12 +53,12 @@
           <CardNousChoisir
             title="expertise"
             logo="medal"
-            body="Spécialiste en assainissement depuis plus de 10 ans"
+            body="Spécialiste en assainissement depuis plus de 10 ans."
           />
           <CardNousChoisir
             title="devis gratuit"
             logo="file-invoice"
-            body="Nous délivrons gratuitement un devis clair et détaillé répondant à vos besoins"
+            body="Nous délivrons gratuitement un devis clair et détaillé répondant à vos besoins."
           />
           <CardNousChoisir
             title="qualité du travail"
@@ -74,14 +74,14 @@
       </div>
     </div>
     <ImageParallaxLandingPage
-      title="Nous sommes disponibles pour répondre à vos questions et établir un devis"
+      title="Nous sommes disponibles pour répondre à vos questions et établir un devis."
       img="/parallax6.jpg"
     />
     <CardWave />
     <FormQuote />
     <div class="bg-gray-200 justify-center flex py-6 pb-12">
       <div
-        class="w-full md:w-3/4 px-6 text-gray italic text-lg text-gray-600 text-center"
+        class="w-full md:w-3/4 px-6 text-gray italic text-lg text-gray-600 text-center relative"
       >
         <font-awesome-icon
           class="text-md m-2"
@@ -95,7 +95,7 @@
         service.... Les réservoirs équipant ces réseaux et installations doivent
         être vidés, nettoyés, rincés et désinfectés au moins une fois par
         an.<font-awesome-icon
-          class="text-md m-2 absolute"
+          class="text-md m-2 absolute right-0"
           :icon="['fas', 'quote-right']"
           style="height: 25px"
         />
@@ -124,6 +124,11 @@ export default {
   data() {
     return {
       items: [{ message: 'Foo' }, { message: 'Bar' }]
+    }
+  },
+  head() {
+    return {
+      title: "Baeza Water - Page d'acceuil"
     }
   }
 }

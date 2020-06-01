@@ -7,23 +7,20 @@
         <nuxt-link class="flex items-center mr-2 md:mr-0" to="/">
           <img class="h-16 w-16" src="/logo.jpg" />
           <h3 class="text-gray-800 hidden md:block">
-            <span class="font-bold">BAEZA</span> WATERS
+            <span class="font-bold">BAEZA</span> WATER
           </h3>
         </nuxt-link>
         <div>
-          <p class="text-md hidden md:block">
+          <p class="text-sm hidden md:block">
             100 Rue René Panhard, 30900 Nîmes
           </p>
           <p class="text-md">
             <span
-              class="text-red-600 text-sm flex justify-center items-start md:text-md font-bold"
+              class="w-full text-red-600 text-lg flex flex-col md:flex-row justify-center items-start md:text-lg font-bold"
             >
-              <font-awesome-icon
-                :icon="['fas', 'phone-square-alt']"
-                size="lg"
-                style="height: 20px; display: inline-block;"
-              />
-              06 16 84 22 91 | 04 67 75 13 39
+              <a href="tel:0616842291" class="mr-0 md:mr-2"> 06 16 84 22 91 </a>
+              <p class="hidden md:block">|</p>
+              <a href="tel:0467751339" class="ml-0 md:ml-2"> 04 67 75 13 39</a>
             </span>
           </p>
         </div>
@@ -61,6 +58,7 @@
             text-sm
             font-medium
             md:flex
+            text-white
             hidden"
         >
           <li class="flex items-center">
@@ -76,7 +74,9 @@
             >
           </li>
           <li class="flex items-center">
-            <nuxt-link class="hover:bg-red-400             p-4" to="/ecodo/"
+            <nuxt-link
+              class="hover:bg-red-400             p-4"
+              to="/detection-de-fuite/"
               >Détection de fuite</nuxt-link
             >
           </li>
@@ -98,7 +98,7 @@
     <nuxt />
     <footer class="bg-red-600 flex justify-center">
       <div class="max-w-screen-lg w-4/5 flex">
-        <div class="w-1/2 flex justify-start">
+        <div class="w-3/4 flex justify-start">
           <ul
             class="
             flex
@@ -114,7 +114,9 @@
               <nuxt-link to="/desinfection/">Désinfection</nuxt-link>
             </li>
             <li class="p-2 hover:bg-red-400">
-              <nuxt-link to="/ecodo/">Écodo</nuxt-link>
+              <nuxt-link to="/detection-de-fuite/"
+                >Détection de fuite</nuxt-link
+              >
             </li>
             <li class="p-2 hover:bg-red-400">
               <nuxt-link to="/nettoyage-industriel/"

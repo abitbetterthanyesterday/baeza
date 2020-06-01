@@ -2,30 +2,34 @@
   <div>
     <ImageParallaxServicePage title="Contact | Devis" img="/invoice.jpg" />
 
-    <div class="bg-gray-200 py-6">
-      <div class="w-full bg-blue-600 flex justify-center py-12">
-        <div
-          class="w-3/4 flex justify-center flex-wrap items-center justify-center text-center text-white text-3xl"
-        >
-          <div class="md:w-1/2 w-full">
+    <div class="bg-gray-200 py-12">
+      <div class="w-full bg-blue-600 flex justify-center py-6 md:py-12">
+        <div class="w-3/4 flex flex-wrap text-center text-white text-3xl">
+          <div class="md:w-1/2 w-full flex items-center md:text-3xl text-lg">
             <font-awesome-icon
-              class="text-lg"
+              class="text-lg mr-6"
               :icon="['fas', 'phone-volume']"
               size="2x"
               style="height: 40px; display: inline"
             />
-            <p class="text-md w-full">Portable 06.16.84.22.91</p>
-            <p class="text-md w-full">Bureau 04.67.75.13.39</p>
+            <div class="text-left">
+              <p><a href="tel: 0616842291"> 06 16 84 22 91</a></p>
+              <p><a href="tel: 0467751339">04 67 75 13 39</a></p>
+            </div>
           </div>
-          <div class="md:w-1/2 w-full md:mt-0 mt-12">
+          <div
+            class="md:w-1/2 w-full flex items-center md:text-3xl text-lg mt-5 md:mt-0"
+          >
             <font-awesome-icon
-              class="text-lg"
-              :icon="['fas', 'map-pin']"
+              class="text-lg mr-3"
+              :icon="['fas', 'map-marked-alt']"
               size="2x"
               style="height: 40px; display: inline"
             />
-            <p>100 Rue RENE PANHARD</p>
-            <p>30900 NÎMES</p>
+            <div class="text-left">
+              <p>100 Rue RENE PANHARD</p>
+              <p>30900 NÎMES</p>
+            </div>
           </div>
         </div>
       </div>
@@ -45,6 +49,11 @@ export default {
     ImageParallaxServicePage,
     CardBaeza,
     FormQuote
+  },
+  head() {
+    return {
+      title: 'Baeza Water - Contact'
+    }
   }
 }
 </script>
