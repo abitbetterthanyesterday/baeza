@@ -10,7 +10,7 @@
       </h2>
       <div
         class="w-full bg-fixed bg-center py-12 flex justify-center"
-        style="background-image: url(parallax8.jpg)"
+        style="background-image: url(/parallax8.jpg)"
       >
         <div class="w-full md:w-3/4 md:ml-32 mx-6">
           <div

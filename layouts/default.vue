@@ -15,7 +15,9 @@
             100 Rue René Panhard, 30900 Nîmes
           </p>
           <p class="text-md">
-            <span class="text-red-600 text-sm flex justify-center items-start md:text-md font-bold">
+            <span
+              class="text-red-600 text-sm flex justify-center items-start md:text-md font-bold"
+            >
               <font-awesome-icon
                 :icon="['fas', 'phone-square-alt']"
                 size="lg"
@@ -150,7 +152,6 @@ export default {
   mounted() {
     const menuBtn = document.querySelector('.menu__btn')
     const menu = document.querySelector('.menu')
-    const hamburger = document.querySelector('.hamburger')
     const arrowUp = document.querySelector('.arrow-up')
 
     arrowUp.classList.add('hidden')
@@ -158,14 +159,14 @@ export default {
     menuBtn.addEventListener('click', () => {
       menu.classList.toggle('hidden')
       arrowUp.classList.toggle('hidden')
-      hamburger.classList.toggle('hidden')
+      menuBtn.classList.toggle('hidden')
     })
 
     if (window.innerWidth <= 768) {
       menu.addEventListener('click', () => {
         menu.classList.toggle('hidden')
+        menuBtn.classList.toggle('hidden')
         arrowUp.classList.toggle('hidden')
-        hamburger.classList.toggle('hidden')
       })
     }
 
