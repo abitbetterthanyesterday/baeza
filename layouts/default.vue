@@ -37,7 +37,7 @@
               style="height: 30px"
             />
           </div>
-          <div class="md:hidden block arrow-up block ml-6 py-3 text-white">
+          <div class="md:hidden text-center block arrow-up block ml-6 py-3 text-white arrow">
             <font-awesome-icon
               class="text-3xl"
               :icon="['fas', 'arrow-up']"
@@ -155,10 +155,17 @@ export default {
     const menuBtn = document.querySelector('.menu__btn')
     const menu = document.querySelector('.menu')
     const arrowUp = document.querySelector('.arrow-up')
+    const closeArrow = document.querySelector('.arrow')
 
     arrowUp.classList.add('hidden')
 
     menuBtn.addEventListener('click', () => {
+      menu.classList.toggle('hidden')
+      arrowUp.classList.toggle('hidden')
+      menuBtn.classList.toggle('hidden')
+    })
+
+    closeArrow.addEventListener('click', () => {
       menu.classList.toggle('hidden')
       arrowUp.classList.toggle('hidden')
       menuBtn.classList.toggle('hidden')
