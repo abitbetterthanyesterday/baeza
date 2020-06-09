@@ -1,6 +1,6 @@
 <template>
   <div
-    class="service__card m-h-64 bg-white m-2 shadow-md md:w-1/3 w-full my-6 mx-6 md:mx-2 rounded"
+    class="service__card m-h-64 bg-white m-2 shadow-md md:w-1/3 w-full my-6 mx-6 md:mx-2 rounded relative md:pb-12 lg:pb-0"
   >
     <div
       class="service__cardTitle h-48 flex justify-center items-end bg-blue-200 bg-cover"
@@ -14,14 +14,14 @@
       </h3>
     </div>
     <div
-      class="service__cardBody flex flex-col items-center justify-between p-6 md:h-64"
+      class="service__cardBody flex flex-col items-center justify-between p-6 md:h-auto lg:h-64"
     >
       <p class="text-center">
         {{ body }}
       </p>
       <nuxt-link
-        to="/desinfection/"
-        class="mt-4 px-4 py-2 text-white font-bold bg-red-600 hover:bg-red-400 rounded shadow-md uppercase"
+        :to="topage"
+        class="mt-4 px-4 py-2 text-white font-bold bg-red-600 hover:bg-red-400 rounded shadow-md uppercase lg:relative md:absolute md:bottom-0 md:mb-6 lg:mb-0"
         >En savoir plus</nuxt-link
       >
     </div>
@@ -31,9 +31,10 @@
 <script>
 export default {
   props: {
-    title: [Object],
+    title: String,
     body: String,
-    img: String
+    img: String,
+    topage: String
   }
 }
 </script>

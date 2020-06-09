@@ -70,7 +70,7 @@
     </div>
 
     <ImageParallaxLandingPage
-      title="Baeza Water intervient sur tout le bassin méditerranéen"
+      title="Baeza Water intervient sur tout le bassin méditerranéen."
       img="/parallax15.jpeg"
     />
     <!--     <div class="flex justify-center bg-gray-200 py-10 pt-32 md:pt-16">

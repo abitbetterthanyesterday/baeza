@@ -27,8 +27,8 @@
               style="height: 40px; display: inline"
             />
             <div class="text-left">
-              <p>100 Rue RENE PANHARD</p>
-              <p>30900 NÎMES</p>
+              <p>40 avenue des Gardians N°7</p>
+              <p>34160 Castries</p>
             </div>
           </div>
         </div>

@@ -16,18 +16,18 @@
       </svg>
       <div class="md:w-1/2 sm:w-full self-start text-red-600 sm:mb-5 z-30">
         <h2 class="text-3xl font-semibold md:mx-5 mb-5">
-          Pourquoi nettoyer en profondeur les installations de distributions
-          d'eau?
+          Pourquoi nettoyer en profondeur les installations de distribution
+          d'eau ?
         </h2>
       </div>
       <div class="md:w-1/2 sm:w-full z-30">
         <p class="text-2xl font-semibold leading-none mb-3">
-          Baeza water vous offre une qualité d'eau optimale en éliminant:
+          Baeza Water vous offre une qualité d'eau optimale en éliminant :
         </p>
         <ul>
           <li class="text-lg">
-            <span class="text-red-600"
-              ><font-awesome-icon
+            <span class="text-red-600">
+              <font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
                 style="height: 16px; display:inline-block"
@@ -35,8 +35,8 @@
             >Les germes pathogènes
           </li>
           <li class="text-lg">
-            <span class="text-red-600"
-              ><font-awesome-icon
+            <span class="text-red-600">
+              <font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
                 style="height: 16px; display:inline-block"
@@ -53,20 +53,28 @@
             >Les matières étrangères
           </li>
           <li class="text-lg">
-            <span class="text-red-600"
-              ><font-awesome-icon
+            <span class="text-red-600">
+              <font-awesome-icon
                 class="text-md mr-2"
                 :icon="['fas', 'check']"
                 style="height: 16px; display:inline-block"
               /> </span
             >Désinfection COVID-19
           </li>
+          <li class="text-lg">
+            <span class="text-red-600">
+              <font-awesome-icon
+                class="text-md mr-2"
+                :icon="['fas', 'check']"
+                style="height: 16px; display:inline-block"
+              /> </span
+            >Désinfection canalisation
+          </li>
         </ul>
       </div>
     </div>
   </div>
 </template>
-
 <style scoped>
 .waves-bg {
   width: 100%;

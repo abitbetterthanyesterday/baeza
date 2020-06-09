@@ -10,24 +10,27 @@
       >
         <ServiceCard
           title="DÉSINFECTION"
-          body="Nous réalisons le nettoyage et la désinfection de vos réservoirs et réseaux d’eau pour vous garantir une eau saine. Désinfection également pour le COVID-19 véhicule, bureau et maison avec produit biocide."
+          body="Nous réalisons le nettoyage et la désinfection de vos réservoirs et réseaux d’eau pour vous garantir une eau saine. Désinfection également pour le COVID-19 : véhicule, bureau et maison avec produit biocide."
           img="/desinfection.jpeg"
+          topage="/desinfection/"
         />
         <ServiceCard
           title="DÉTECTION DE FUITE"
           body="Faites des économies de consommation et empêchez les dégâts des eaux et les fuites imperceptibles."
           img="/ecodo.png"
+          topage="/detection-de-fuite/"
         />
         <ServiceCard
           title="NETTOYAGE INDUSTRIEL"
           body="Pour les professionnels, nous avons une solution quel que soit votre besoin de nettoyage."
           img="/nettoyage_indus.jpeg"
+          topage="/nettoyage-industriel/"
         />
       </div>
     </div>
     <ImageParallaxLandingPage
       title="Nous pouvons aussi vous apporter notre
-    expertise en assainissement:"
+    expertise en assainissement :"
       :items="[
         { message: 'Inspection caméra de vos canalisations' },
         { message: 'Curage de vos réseaux' },
@@ -45,7 +48,7 @@
         <h2
           class="mb-6 text-3xl font-black text-blue-600 mb-12 uppercase text-center"
         >
-          Pourquoi nous choisir?
+          Pourquoi nous choisir ?
         </h2>
         <div
           class="flex flex-col md:flex-row justify-around md:justify-between max-w-screen-lg md:mx-0 mx-6 md:mx-0"
@@ -74,7 +77,17 @@
       </div>
     </div>
     <ImageParallaxLandingPage
-      title="Nous sommes disponibles pour répondre à vos questions et établir un devis."
+      title="Parce que nos équipes sont compétentes, nous possédons : "
+      :items="[
+        {
+          message: `Le certificat d'aptitude au travail en espace confiné (CATEC) (Détecteur tri-gaz O2, CO & H2S)`
+        },
+        { message: 'L’habilitation au travail en hauteur' },
+        {
+          message:
+            'L’habilitation au travail en profondeur (plongeur scaphandrier)'
+        }
+      ]"
       img="/parallax6.jpg"
     />
     <CardWave />

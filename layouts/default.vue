@@ -12,7 +12,7 @@
         </nuxt-link>
         <div>
           <p class="text-sm hidden md:block">
-            100 Rue René Panhard, 30900 Nîmes
+            40 avenue des Gardians N°7, 34160 Castries
           </p>
           <p class="text-md">
             <span
@@ -37,7 +37,9 @@
               style="height: 30px"
             />
           </div>
-          <div class="md:hidden text-center block arrow-up block ml-6 py-3 text-white arrow">
+          <div
+            class="md:hidden text-center block arrow-up block ml-6 py-3 text-white arrow"
+          >
             <font-awesome-icon
               class="text-3xl"
               :icon="['fas', 'arrow-up']"
@@ -129,10 +131,12 @@
           <div
             class="p-2 hover:bg-red-400 text-white text-2xl mr-2 cursor-pointer"
           >
-            <font-awesome-icon
-              :icon="['fab', 'instagram']"
-              style="height: 30px"
-            />
+            <a href="https://www.instagram.com/baeza_water/" target="_blank">
+              <font-awesome-icon
+                :icon="['fab', 'instagram']"
+                style="height: 30px"
+              />
+            </a>
           </div>
           <div
             id="scroll-top"
@@ -148,7 +152,6 @@
     </footer>
   </div>
 </template>
-
 <script>
 export default {
   mounted() {
@@ -187,7 +190,6 @@ export default {
   }
 }
 </script>
-
 <style>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

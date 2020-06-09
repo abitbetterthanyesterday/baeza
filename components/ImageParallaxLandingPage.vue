@@ -20,7 +20,7 @@
 export default {
   props: {
     title: String,
-    items: [String],
+    items: Array,
     img: String
   }
 }

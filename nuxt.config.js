@@ -1,11 +1,11 @@
 const routerBase =
-  process.env.DEPLOY_ENV === 'GH_PAGES' ?
-  {
-    router: {
-      base: '/<repository-name>/'
-    }
-  } :
-  {}
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: '/<repository-name>/'
+        }
+      }
+    : {}
 
 export default {
   mode: 'universal',
@@ -13,17 +13,18 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Baeza water - Page d'acceuil",
+    title: "Baeza water - Votre expert nettoyage et désinfection",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: "Baeza Water est un expert dans le nettoyage et la désinfection de réservoirs d'eau (cuve, château d'eau, bâche à eau, puits, débouchage, fin de chantier, détection de fuites, assainissement). Nous intervenons dans le Gard, Hérault, Var, Bouche du Rhône.",
+        content:
+          "Baeza Water est un expert dans le nettoyage et la désinfection de réservoirs d'eau (cuve, château d'eau, bâche à eau, puits, débouchage, fin de chantier, détection de fuites, assainissement). Nous intervenons dans le Gard, Hérault, Var, Bouche du Rhône."
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }]
   },
   /*
    ** Customize the progress-bar color
@@ -32,13 +33,15 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/css/tailwind.css', '@fortawesome/fontawesome/styles.css', '@fortawesome/fontawesome-svg-core/styles.css'],
+  css: [
+    '~/assets/css/tailwind.css',
+    '@fortawesome/fontawesome/styles.css',
+    '@fortawesome/fontawesome-svg-core/styles.css'
+  ],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [
-    '~/plugins/fontawesome.js'
-  ],
+  plugins: ['~/plugins/fontawesome.js'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -58,7 +61,8 @@ export default {
   ],
 
   fontawesome: {
-    imports: [{
+    imports: [
+      {
         set: '@fortawesome/free-solid-svg-icons', // Solid icons
         icons: ['fas']
       },
@@ -69,7 +73,6 @@ export default {
     ]
   },
 
-  ...routerBase,
   /*
    ** Build configuration
    */

@@ -6,7 +6,7 @@
       <h2
         class="text-center uppercase text-blue-600 text-3xl font-extrabold mb-5"
       >
-        Quand demander une intervention?
+        Quand demander une intervention ?
       </h2>
       <div
         class="w-full bg-fixed bg-center py-12 flex justify-center"
@@ -25,7 +25,7 @@
               class="flex md:justify-between justify-center mt-6 items-center"
             >
               <p class="hidden md:block">
-                Contactez-nous pour obtenir un contrat d'entretien
+                Contactez-nous pour obtenir un contrat d'entretien.
               </p>
               <nuxt-link
                 to="/contact/"
@@ -39,11 +39,13 @@
     </div>
     <CardBaeza />
     <ImageParallaxLandingPage
-      title="Nous pouvons aussi vous apporter notre expertise dans ces domaines:"
+      title="Nous pouvons aussi vous apporter notre expertise dans ces domaines :"
       :items="[
-        { message: 'Inspection caméra de vos canalisations' },
-        { message: 'Curage de vos réseaux' },
-        { message: 'Débouchage de vos canalisations' }
+        { message: 'Nettoyage locaux' },
+        { message: 'Fin de chantier' },
+        { message: 'Nettoyage suite décès' },
+        { message: 'Syndrome diogène' },
+        { message: 'Contrôle des installations par plongeur' }
       ]"
       img="/parallax14.jpg"
     />

@@ -8,7 +8,7 @@
           <p class="md:w-3/4 w-full p-6 md:text-lg text-justify">
             Baeza Water utilise un système français connecté permettant de
             détecter les fuites d’eau. Nous intervenons sur tout le golfe
-            méditerranéen. Réalisez des économies de consommation et éviter les
+            méditerranéen. Réalisez des économies de consommation et évitez les
             dégâts des eaux, les fuites imperceptibles et les inondations grâce
             à notre intervention. Pilotable à distance et connecté, notre
             système vous offre une réelle sérénité sur d’éventuelles fuites et
@@ -42,7 +42,7 @@
           />
         </div>
         <div class="md:w-3/4 w-full text-center">
-          <h3 class="text-2xl font-semibold mt-8 mb-4">{{ title }}</h3>
+          <h3 class="text-2xl font-semibold mt-8 mb-4"></h3>
           <p class="text-xl font-semibold">
             Évitez les dégâts des eaux, les fuites imperceptibles et les
             inondations grâce à notre intervention.
@@ -72,6 +72,11 @@ export default {
     ImageParallaxServicePage,
     FormQuote,
     CardBaeza
+  },
+  data() {
+    return {
+      title: 'Baeza Water - Détection de fuite'
+    }
   },
   head() {
     return {
