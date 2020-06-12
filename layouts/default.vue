@@ -12,7 +12,7 @@
         </nuxt-link>
         <div>
           <p class="text-sm hidden md:block">
-            40 avenue des Gardians N°7, 34160 Castries
+            40 avenue des Gardians N°7 34160 Castries
           </p>
           <p class="text-md">
             <span

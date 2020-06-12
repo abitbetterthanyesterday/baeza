@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen flex flex-col justify-center items-center h-64 bg-blue-200 bg-fixed bg-center bg-cover"
+    class="w-screen flex flex-col justify-center items-center m-h-64 bg-blue-200 bg-fixed bg-center bg-cover"
     :style="{ 'background-image': 'url(' + img + ')' }"
   >
     <h2
@@ -34,4 +34,8 @@ export default {
 }
 </script>
 
-<style></style>
+<style>
+.m-h-64 {
+  min-height: 16rem;
+}
+</style>

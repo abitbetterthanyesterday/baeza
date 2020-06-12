@@ -141,7 +141,7 @@ export default {
   },
   head() {
     return {
-      title: "Baeza Water - Page d'acceuil"
+      title: 'Baeza water - Votre expert nettoyage et désinfection'
     }
   }
 }
