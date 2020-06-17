@@ -38,7 +38,15 @@
           class="w-full bg-gray-500 p-12 md:px-12 shadow-md pt-32 relative bg-cover"
           :style="{ 'background-image': 'url(/parallax4.jpg)' }"
         >
-          <form>
+          <form
+            action="https://formsubmit.co/l.boissel@baezawater.com"
+            method="POST"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="Contact website Baeza!"
+            />
             <div class="flex justify-center items-center py-2">
               <div
                 class="w-1/3 text-white text-center bg-red-600 p-2 rounded-l"
@@ -50,6 +58,8 @@
                   placeholder="Nom prénom"
                   class="w-full p-2 rounded-r"
                   type="text"
+                  name="Nom"
+                  required
                 />
               </div>
             </div>
@@ -64,6 +74,8 @@
                   placeholder="Votre numéro de téléphone"
                   class="w-full p-2 rounded-r"
                   type="text"
+                  name="telephone"
+                  required
                 />
               </div>
             </div>
@@ -77,26 +89,31 @@
                 <input
                   placeholder="Votre adresse e-mail"
                   class="w-full p-2 rounded-r"
-                  type="text"
+                  type="email"
+                  name="email"
+                  required
                 />
               </div>
             </div>
             <div class="flex justify-center items-center py-2">
               <div class="w-full">
-                <textarea
+                <input
                   placeholder="Précisez votre demande"
                   class="w-full p-2 h-40 rounded"
                   rows="10"
                   cols="50"
+                  name="message"
+                  required
                 />
               </div>
             </div>
             <div class="flex justify-center">
-              <nuxt-link
-                to="/contact/"
+              <button
+                type="submit"
                 class="mt-4 px-6 py-4 text-white text-2xl font-bold text-white bg-red-600 hover:bg-red-400 rounded shadow-md uppercase"
-                >Envoyer</nuxt-link
               >
+                Envoyer
+              </button>
             </div>
           </form>
         </div>
