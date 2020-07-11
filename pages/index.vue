@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-screen flex flex-col justify-center items-center py-12 m-h-64 bg-blue-200 bg-fixed bg-center bg-cover"
+      class="w-100 flex flex-col justify-center items-center py-12 m-h-64 bg-blue-200 bg-fixed bg-center bg-cover overflow-x-hidden"
       :style="{ 'background-image': 'url(/parallax3.jpg)' }"
     >
       <h2 class="w-3/4 text-white text-center text-3xl font-black">
@@ -11,7 +11,7 @@
       <ul
         class="text-white text-xl font-semibold flex flex-col items-center justify-center"
       >
-        <li>
+        <li class="text-center">
           Désinfection virus y compris
           <span class="text-red-600">COVID-19</span>.
         </li>

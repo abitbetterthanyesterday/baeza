@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-screen flex flex-col justify-center items-center py-12 m-h-64 bg-blue-200 bg-fixed bg-center bg-cover"
+    class="w-100 flex flex-col justify-center items-center py-12 m-h-64 bg-blue-200 bg-fixed bg-center bg-cover overflow-x-hidden"
     :style="{ 'background-image': 'url(' + img + ')' }"
   >
     <h2 class="w-3/4 text-white text-center text-3xl font-black">
