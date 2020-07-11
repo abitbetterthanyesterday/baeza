@@ -1,9 +1,22 @@
 <template>
   <div>
-    <ImageParallaxLandingPage
-      title="Nettoyer et désinfecter votre réservoir est primordial pour votre santé."
-      img="/parallax3.jpg"
-    />
+    <div
+      class="w-screen flex flex-col justify-center items-center py-12 m-h-64 bg-blue-200 bg-fixed bg-center bg-cover"
+      :style="{ 'background-image': 'url(/parallax3.jpg)' }"
+    >
+      <h2 class="w-3/4 text-white text-center text-3xl font-black">
+        Nettoyer et désinfecter votre environnement est primordial pour votre
+        santé.
+      </h2>
+      <ul
+        class="text-white text-xl font-semibold flex flex-col items-center justify-center"
+      >
+        <li>
+          Désinfection virus y compris
+          <span class="text-red-600">COVID-19</span>.
+        </li>
+      </ul>
+    </div>
     <div class="flex justify-center bg-gray-200 py-10 px-2">
       <div
         class="services flex flex-wrap md:flex-no-wrap justify-around max-w-screen-lg"
@@ -56,7 +69,7 @@
           <CardNousChoisir
             title="expertise"
             logo="medal"
-            body="Spécialiste en assainissement depuis plus de 10 ans."
+            body="Nos agents sont spécialisés en travaux particuliers et spéciaux (hauteur, immergé, profondeur, environement hostile....). Intervention en réservoirs pleins par scaphandriers."
           />
           <CardNousChoisir
             title="devis gratuit"
@@ -84,8 +97,7 @@
         },
         { message: 'L’habilitation au travail en hauteur' },
         {
-          message:
-            'L’habilitation au travail en profondeur (plongeur scaphandrier)'
+          message: 'L’habilitation au travail en profondeur'
         }
       ]"
       img="/parallax6.jpg"

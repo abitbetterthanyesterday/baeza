@@ -64,6 +64,33 @@
                 /> </span
               >Nettoyage haute pression (piscine, puits...)
             </li>
+            <li class="text-lg">
+              <span class="text-red-600"
+                ><font-awesome-icon
+                  class="text-md mr-2"
+                  :icon="['fas', 'check']"
+                  style="height: 16px; display:inline-block"
+                /> </span
+              >Camion grue et ampliroll pour évacuation déchets
+            </li>
+            <li class="text-lg">
+              <span class="text-red-600"
+                ><font-awesome-icon
+                  class="text-md mr-2"
+                  :icon="['fas', 'check']"
+                  style="height: 16px; display:inline-block"
+                /> </span
+              >Pelle mécanique
+            </li>
+            <li class="text-lg">
+              <span class="text-red-600"
+                ><font-awesome-icon
+                  class="text-md mr-2"
+                  :icon="['fas', 'check']"
+                  style="height: 16px; display:inline-block"
+                /> </span
+              >Nacelles
+            </li>
           </ul>
         </div>
       </div>
